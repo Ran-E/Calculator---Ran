@@ -1,0 +1,30 @@
+{
+  "name": "calculator---ran",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-ts": "tsc src/scripts/*.ts",
+    "build-sass": "sass src/style/*.scss src/style/*.css",
+    "dev-server": "live-server src",
+    "dev-sass": "sass src/style/*.scss src/style/*.css --watch",
+    "dev": "npm run dev-server & npm run dev-sass",
+    "start": "echo \"No start script\" && exit 0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ran-E/Calculator---Ran.git"
+  },
+  "author": "Ran Elbaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ran-E/Calculator---Ran/issues"
+  },
+  "homepage": "https://github.com/Ran-E/Calculator---Ran#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "sass": "^1.56.1",
+    "typescript": "^4.9.3"
+  }
+}
