@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const infoBt = document.getElementById("info");
+  const infoBt = document.querySelector("#info");
 
   infoBt.addEventListener("click", () => {
     alert(

@@ -4,43 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/style.css" />
-    <script src="/src/scripts/basic.js"></script>
-
+    <script src="/src/scripts/application.js"></script>
+    <script src="/src/scripts/calculator.js"></script>
     <title>Calculator</title>
   </head>
   <body>
     <div class="main">
       <h1 class="grid-cal">My Calculator</h1>
-      <button class="grid-cal" id="N1">1</button>
-      <button class="grid-cal" id="N2">2</button>
-      <button class="grid-cal" id="N3">3</button>
-      <button class="grid-cal" id="N4">4</button>
-      <button class="grid-cal" id="N5">5</button>
-      <button class="grid-cal" id="N6">6</button>
-      <button class="grid-cal" id="N7">7</button>
-      <button class="grid-cal" id="N8">8</button>
-      <button class="grid-cal" id="N9">9</button>
-      <button class="grid-cal" id="N0">0</button>
+      <button class="grid-cal button" id="N1" value="1">1</button>
+      <button class="grid-cal button" id="N2" value="2">2</button>
+      <button class="grid-cal button" id="N3" value="3">3</button>
+      <button class="grid-cal button" id="N4" value="4">4</button>
+      <button class="grid-cal button" id="N5" value="5">5</button>
+      <button class="grid-cal button" id="N6" value="6">6</button>
+      <button class="grid-cal button" id="N7" value="7">7</button>
+      <button class="grid-cal button" id="N8" value="8">8</button>
+      <button class="grid-cal button" id="N9" value="9">9</button>
+      <button class="grid-cal button" id="N0" value="0">0</button>
       <button class="grid-cal" id="positive_and_negative">&#177</button>
-      <button class="grid-cal" id="point">.</button>
+      <button class="grid-cal button" id="point" value=".">.</button>
       <button class="grid-cal" id="info">&nbsp</button>
       <button class="grid-cal" id="mode">&nbsp</button>
       <button class="grid-cal" id="history">&nbsp</button>
       <button class="grid-cal" id="scientific_mode">&nbsp</button>
       <button class="grid-cal" id="setting">&nbsp</button>
       <button class="grid-cal" id="return">&nbsp</button>
-      <button class="grid-cal" id="division">/</button>
-      <button class="grid-cal" id="multiplication">x</button>
-      <button class="grid-cal" id="minus">-</button>
-      <button class="grid-cal" id="plus">+</button>
-      <button class="grid-cal" id="equal">=</button>
-      <button class="grid-cal" id="clear">C</button>
+      <button class="grid-cal button" id="division" value="/">/</button>
+      <button class="grid-cal button" id="multiplication" value="x">x</button>
+      <button class="grid-cal button" id="minus" value="-">-</button>
+      <button class="grid-cal button" id="plus" value="+">+</button>
+      <button class="grid-cal" id="equal" value="=">=</button>
+      <button class="grid-cal" id="clear" value="C">C</button>
       <button class="grid-cal" id="empty"></button>
       <button class="grid-cal" id="empty2"></button>
       <button class="grid-cal" id="empty3"></button>
-      <textarea class="grid-cal" name="" id="screen"></textarea>
+      <input class="grid-cal" type="text" id="screen">
       <button class="grid-cal" id="basic_mode"></button>
-    </div>
     </div>
 
   </body>
