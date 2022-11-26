@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
   scientificBt.addEventListener("click", () => {
     if (scientific.style.display === "none") {
       scientific.style.display = "block";
+      scientific.style.removeProperty("display");
     } else {
       scientific.style.display = "none";
     }

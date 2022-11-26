@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", (any) => {
   function enter() {
     let x = screen.value;
     let y = eval(x);
-    screen.value = y;
+    screen.value = "=" + y;
   }
 
   backBt.addEventListener("click", back);
