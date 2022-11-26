@@ -2,36 +2,37 @@ document.addEventListener("DOMContentLoaded", (any) => {
   const screen = document.querySelector("#screen");
   const cBt = document.querySelector("#clear");
   const calBt = document.querySelectorAll(".button");
+  const enterBt = document.querySelector("#equal");
+  const backBt = document.querySelector("#return");
 
+  opLs = [];
+  console.log(opLs);
   cBt.addEventListener("click", clr);
+
   calBt.forEach((element) => {
     element.addEventListener("click", () => {
-      screen.value += element.value;
+      opLs.push(element.value);
+      screen.value = opLs.join("");
     });
   });
 
-  // function display(val) {
-  //   screen.value += val;
-  // }
+  enterBt.addEventListener("click", enter);
 
-  // }
-  // numBt.onkeyup = function (event) {
-  //   if (event.key === 13) {
-  //     console.log("Enter");
-  //     let x = screen.value;
-  //     console.log(x);
-  //     solve();
-  //   }
-  // };
+  function enter() {
+    let x = screen.value;
+    let y = eval(x);
+    screen.value = y;
+  }
 
-  // function solve() {
-  //   let x = document.querySelector("#screen").value;
-  //   let y = math.evaluate(x);
-  //   document.querySelector("#screen").value = y;
-  // }
+  backBt.addEventListener("click", back);
 
+  function back() {
+    opLs = opLs.slice(0, -2);
+    screen.value = opLs.join("");
+  }
   // Function that clear the display
   function clr() {
+    opLs = [];
     screen.value = "";
   }
 });

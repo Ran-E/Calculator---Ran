@@ -11,6 +11,7 @@
 }
 
 #info {
+  border: 0.5px solid black;
   font-size: medium;
   font-weight: normal;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -24,10 +25,11 @@
   background-color: #d9e2f3;
   grid-column: 1/2;
   grid-row: 1/2;
-  background-image: url(/src/media/Icons/info.png);
+  background-image: url(../media/Icons/info.png);
 }
 
 h1 {
+  border: 0.5px solid black;
   font-size: medium;
   font-weight: normal;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -44,6 +46,7 @@ h1 {
 }
 
 #setting {
+  border: 0.5px solid black;
   font-size: medium;
   font-weight: normal;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -57,10 +60,11 @@ h1 {
   background-color: #d9e2f3;
   grid-column: 5/6;
   grid-row: 1/2;
-  background-image: url(/src/media/Icons/setting.png);
+  background-image: url(../media/Icons/setting.png);
 }
 
 #mode {
+  border: 0.5px solid black;
   font-size: medium;
   font-weight: normal;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -74,10 +78,11 @@ h1 {
   background-color: #f7cbac;
   grid-column: 1/2;
   grid-row: 2/3;
-  background-image: url(/src/media/Icons/mode.png);
+  background-image: url(../media/Icons/mode.png);
 }
 
 #screen {
+  border: 0.5px solid black;
   font-size: medium;
   font-weight: normal;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -95,6 +100,7 @@ h1 {
 }
 
 #return {
+  border: 0.5px solid black;
   font-size: medium;
   font-weight: normal;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -108,10 +114,11 @@ h1 {
   background-color: #d9e2f3;
   grid-column: 5/6;
   grid-row: 2/3;
-  background-image: url(/src/media/Icons/back.png);
+  background-image: url(../media/Icons/back.png);
 }
 
 #history {
+  border: 0.5px solid black;
   font-size: medium;
   font-weight: normal;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -125,10 +132,11 @@ h1 {
   background-color: #f7cbac;
   grid-column: 1/2;
   grid-row: 3/4;
-  background-image: url(/src/media/Icons/history.png);
+  background-image: url(../media/Icons/history.png);
 }
 
 #clear {
+  border: 0.5px solid black;
   font-size: medium;
   font-weight: normal;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -145,6 +153,7 @@ h1 {
 }
 
 #division {
+  border: 0.5px solid black;
   font-size: medium;
   font-weight: normal;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -161,6 +170,7 @@ h1 {
 }
 
 #scientific_mode {
+  border: 0.5px solid black;
   font-size: medium;
   font-weight: normal;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -174,10 +184,11 @@ h1 {
   background-color: #f7cbac;
   grid-column: 1/2;
   grid-row: 4/5;
-  background-image: url(/src/media/Icons/scientific\ mode.png);
+  background-image: url(../media/Icons/scientific\ mode.png);
 }
 
 #N7 {
+  border: 0.5px solid black;
   font-size: medium;
   font-weight: normal;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -194,6 +205,7 @@ h1 {
 }
 
 #N8 {
+  border: 0.5px solid black;
   font-size: medium;
   font-weight: normal;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -210,6 +222,7 @@ h1 {
 }
 
 #N9 {
+  border: 0.5px solid black;
   font-size: medium;
   font-weight: normal;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -226,6 +239,7 @@ h1 {
 }
 
 #multiplication {
+  border: 0.5px solid black;
   font-size: medium;
   font-weight: normal;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -242,6 +256,7 @@ h1 {
 }
 
 #basic_mode {
+  border: 0.5px solid black;
   font-size: medium;
   font-weight: normal;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -255,10 +270,11 @@ h1 {
   background-color: #f7cbac;
   grid-column: 1/2;
   grid-row: 5/6;
-  background-image: url(/src/media/Icons/basic_mode.png);
+  background-image: url(../media/Icons/basic_mode.png);
 }
 
 #N4 {
+  border: 0.5px solid black;
   font-size: medium;
   font-weight: normal;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -275,6 +291,7 @@ h1 {
 }
 
 #N5 {
+  border: 0.5px solid black;
   font-size: medium;
   font-weight: normal;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -291,6 +308,7 @@ h1 {
 }
 
 #N6 {
+  border: 0.5px solid black;
   font-size: medium;
   font-weight: normal;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -307,6 +325,7 @@ h1 {
 }
 
 #minus {
+  border: 0.5px solid black;
   font-size: medium;
   font-weight: normal;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -323,6 +342,7 @@ h1 {
 }
 
 #empty {
+  border: 0.5px solid black;
   font-size: medium;
   font-weight: normal;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -339,6 +359,7 @@ h1 {
 }
 
 #N1 {
+  border: 0.5px solid black;
   font-size: medium;
   font-weight: normal;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -355,6 +376,7 @@ h1 {
 }
 
 #N2 {
+  border: 0.5px solid black;
   font-size: medium;
   font-weight: normal;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -371,6 +393,7 @@ h1 {
 }
 
 #N3 {
+  border: 0.5px solid black;
   font-size: medium;
   font-weight: normal;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -387,6 +410,7 @@ h1 {
 }
 
 #plus {
+  border: 0.5px solid black;
   font-size: medium;
   font-weight: normal;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -403,6 +427,7 @@ h1 {
 }
 
 #empty2 {
+  border: 0.5px solid black;
   font-size: medium;
   font-weight: normal;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -419,6 +444,7 @@ h1 {
 }
 
 #positive_and_negative {
+  border: 0.5px solid black;
   font-size: medium;
   font-weight: normal;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -435,6 +461,7 @@ h1 {
 }
 
 #N0 {
+  border: 0.5px solid black;
   font-size: medium;
   font-weight: normal;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -451,6 +478,7 @@ h1 {
 }
 
 #point {
+  border: 0.5px solid black;
   font-size: medium;
   font-weight: normal;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -467,6 +495,7 @@ h1 {
 }
 
 #equal {
+  border: 0.5px solid black;
   font-size: medium;
   font-weight: normal;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -483,6 +512,7 @@ h1 {
 }
 
 #empty3 {
+  border: 0.5px solid black;
   font-size: medium;
   font-weight: normal;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;

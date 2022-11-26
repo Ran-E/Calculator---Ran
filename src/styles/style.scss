@@ -3,6 +3,7 @@
   padding: 0;
 }
 @mixin general_style {
+  border: 0.5px solid black;
   font-size: medium;
   font-weight: normal;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -40,7 +41,7 @@
   @include main_style;
   grid-column: 1/2;
   grid-row: 1/2;
-  background-image: url(/src/media/Icons/info.png);
+  background-image: url(../media/Icons/info.png);
 }
 
 h1 {
@@ -54,14 +55,14 @@ h1 {
   @include main_style;
   grid-column: 5/6;
   grid-row: 1/2;
-  background-image: url(/src/media/Icons/setting.png);
+  background-image: url(../media/Icons/setting.png);
 }
 #mode {
   @include general_style;
   @include special_button_style;
   grid-column: 1/2;
   grid-row: 2/3;
-  background-image: url(/src/media/Icons/mode.png);
+  background-image: url(../media/Icons/mode.png);
 }
 #screen {
   @include general_style;
@@ -74,14 +75,14 @@ h1 {
   @include main_style;
   grid-column: 5/6;
   grid-row: 2/3;
-  background-image: url(/src/media/Icons/back.png);
+  background-image: url(../media/Icons/back.png);
 }
 #history {
   @include general_style;
   @include special_button_style;
   grid-column: 1/2;
   grid-row: 3/4;
-  background-image: url(/src/media/Icons/history.png);
+  background-image: url(../media/Icons/history.png);
 }
 #clear {
   @include general_style;
@@ -100,7 +101,7 @@ h1 {
   @include special_button_style;
   grid-column: 1/2;
   grid-row: 4/5;
-  background-image: url(/src/media/Icons/scientific\ mode.png);
+  background-image: url(../media/Icons/scientific\ mode.png);
 }
 #N7 {
   @include general_style;
@@ -131,7 +132,7 @@ h1 {
   @include special_button_style;
   grid-column: 1/2;
   grid-row: 5/6;
-  background-image: url(/src/media/Icons/basic_mode.png);
+  background-image: url(../media/Icons/basic_mode.png);
 }
 #N4 {
   @include general_style;
