@@ -60,12 +60,16 @@
 }
 
 .history {
+  background-color: #bdbbbb;
+
   border: 0.5px solid black;
   grid-column: 2/3;
   grid-row: 2/3;
   display: grid;
   grid-template-columns: repeat(minmax(260px, 1ft));
   .head {
+    background-color: #bdbbbb;
+
     grid-column: 1/2;
     grid-row: 1/2;
     img {
@@ -74,6 +78,8 @@
   }
 
   #history {
+    background-color: #bdbbbb;
+
     grid-column: 1/2;
     grid-row: 2/2000;
   }

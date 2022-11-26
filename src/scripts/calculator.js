@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", (any) => {
   const calBt = document.querySelectorAll(".button");
   const enterBt = document.querySelector("#equal");
   const backBt = document.querySelector("#return");
+  const historyArea = document.querySelector("#history");
 
   opLs = [];
   console.log(opLs);
@@ -20,8 +21,10 @@ document.addEventListener("DOMContentLoaded", (any) => {
 
   function enter() {
     let x = screen.value;
+    historyArea.value += x + "\r\n";
     let y = eval(x);
     screen.value = "=" + y;
+    historyArea.value += screen.value + "\r\n";
   }
 
   backBt.addEventListener("click", back);
@@ -34,5 +37,6 @@ document.addEventListener("DOMContentLoaded", (any) => {
   function clr() {
     opLs = [];
     screen.value = "";
+    historyArea.value = "";
   }
 });
