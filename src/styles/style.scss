@@ -110,7 +110,7 @@
     grid-column: 1/2;
     grid-row: 6/7;
 
-    background-image: url(../media/Icons/square2.png);
+    background-image: url(../src/media/Icons/square2.png);
   }
   #root2 {
     @include button_style;
@@ -118,7 +118,7 @@
     @include scientific_style;
     grid-column: 2/3;
     grid-row: 6/7;
-    background-image: url(../media/Icons/root2.png);
+    background-image: url(../src/media/Icons/root2.png);
   }
   #squarey {
     @include button_style;
@@ -127,7 +127,7 @@
     grid-row: 7/8;
     @include scientific_style;
 
-    background-image: url(../media/Icons/squarey.png);
+    background-image: url(../src/media/Icons/squarey.png);
   }
   #rooty {
     @include button_style;
@@ -135,7 +135,7 @@
     @include scientific_style;
     grid-column: 2/3;
     grid-row: 7/8;
-    background-image: url(../media/Icons/rooty.png);
+    background-image: url(../src/media/Icons/rooty.png);
   }
   #pi {
     @include button_style;
@@ -166,7 +166,7 @@
 
   grid-column: 1/2;
   grid-row: 1/2;
-  background-image: url(../media/Icons/info.png);
+  background-image: url(../src/media/Icons/info.png);
 }
 
 .head {
@@ -180,14 +180,14 @@
   @include main_style;
   grid-column: 5/6;
   grid-row: 1/2;
-  background-image: url(../media/Icons/setting.png);
+  background-image: url(../src/media/Icons/setting.png);
 }
 #mode {
   @include general_style;
   @include special_button_style;
   grid-column: 1/2;
   grid-row: 2/3;
-  background-image: url(../media/Icons/mode.png);
+  background-image: url(../src/media/Icons/mode.png);
 }
 #screen {
   @include general_style;
@@ -200,14 +200,14 @@
   @include main_style;
   grid-column: 5/6;
   grid-row: 2/3;
-  background-image: url(../media/Icons/back.png);
+  background-image: url(../src/media/Icons/back.png);
 }
 #historyBt {
   @include general_style;
   @include special_button_style;
   grid-column: 1/2;
   grid-row: 3/4;
-  background-image: url(../media/Icons/history.png);
+  background-image: url(../src/media/Icons/history.png);
 }
 #clear {
   @include general_style;
@@ -226,7 +226,7 @@
   @include special_button_style;
   grid-column: 1/2;
   grid-row: 4/5;
-  background-image: url(../media/Icons/scientific\ mode.png);
+  background-image: url(../src/media/Icons/scientific\ mode.png);
 }
 #N7 {
   @include general_style;
@@ -257,7 +257,7 @@
   @include special_button_style;
   grid-column: 1/2;
   grid-row: 5/6;
-  background-image: url(../media/Icons/basic_mode.png);
+  background-image: url(../src/media/Icons/basic_mode.png);
 }
 #N4 {
   @include general_style;
